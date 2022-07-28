@@ -3,7 +3,10 @@
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
 
-Grupo:
+## Executando o projeto:
+`python manage.py runserver`
+
+## Grupo:
 
 - Dosons de Oliveria Vitor
 - Maria Clara Cortez
