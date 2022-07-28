@@ -18,7 +18,7 @@ def addition(request):
 
         return render(request, "result.html", {"result": res})
     else:
-        res = "Only digits are allowed"
+        res = "Digite algum numero"
         return render(request, "result.html", {"result": res})
 
 
@@ -34,7 +34,7 @@ def subtraction(request):
 
         return render(request, "result.html", {"result": res})
     else:
-        res = "Only digits are allowed"
+        res = "Digite algum numero"
         return render(request, "result.html", {"result": res})
 
 
@@ -50,7 +50,7 @@ def multiplication(request):
 
         return render(request, "result.html", {"result": res})
     else:
-        res = "Only digits are allowed"
+        res = "Digite algum numero"
         return render(request, "result.html", {"result": res})
 
 
@@ -66,11 +66,11 @@ def division(request):
         b = int(num2)
 
         if b == 0:
-            res = "Zero divide error"
+            res = "Você não pode dividir por Zero"
             return render(request, "result.html", {"result": res})
         else:
             res = a / b
             return render(request, "result.html", {"result": res})
     else:
-        res = "Only digits are allowed"
+        res = "Digite algum numero"
         return render(request, "result.html", {"result": res})

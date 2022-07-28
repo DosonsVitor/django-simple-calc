@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <style>
+        body {
+            display: flex;
+            background-color: #131b23;
+            color: white;
+        }
+
+        h1 { font-family: 'Nova Mono', monospace; font-size: 35px; }
+
+        form {
+            font-size: 30px; font-family: 'Blue Yellow', sans-serif; text-align: center;
+            margin-left: 50px;
+        }
+
+        input {
+            border-color: white;
+            background-color: #131b23;
+            width: 50px; height: 50px;
+            font-family: 'Blue Yellow', sans-serif; font-size: 30px;
+            color: white;
+        }
+
+        input:focus { outline: none; box-shadow: 0 0 0 1px gainsboro; }
+
+        input::-webkit-outer-spin-button, input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+
+        button { border: none; margin: 15px; }
+
+        #sum { background-color: #80b4fb; }
+
+        #sub { background-color: #fc5692; }
+
+        #mult { background-color: #fa7921; }
+
+        #div { background-color: #107a1c; }
+
+        img { height: 30px; margin: 10px; }
+
+        p { text-align: center; font-size: 30px; font-family: 'Blue Yellow', sans-serif; }
+    </style>
+</head>
+
+<body>
+    {% block content %}
+
+    {% endblock %}
+</body>
+
+</html>
