@@ -1,0 +1,49 @@
+{% extends 'basic.html' %}
+
+{% block content %}
+
+<h1>Somar</h1>
+<form action="add" method="POST">
+    {% csrf_token %}
+
+    <label for="num1">X:</label>
+    <input type="number" name="num1" id="num1">
+    <label for="num2">Y:</label>
+    <input type="number" name="num2" id="num2">
+    <button type="submit" id="sum"><img src="" alt="soma"></button>
+</form>
+
+<h1>Subtrair</h1>
+<form action="sub" method="POST">
+    {% csrf_token %}
+
+    <label for="num1">X:</label>
+    <input type="number" name="num1" id="num1">
+    <label for="num2">Y:</label>
+    <input type="number" name="num2" id="num2">
+    <button type="submit" id="sub"><img src="" alt="subtração"></button>
+</form>
+
+<h1>Multiplicar</h1>
+<form action="multi" method="POST">
+    {% csrf_token %}
+
+    <label for="num1">X:</label>
+    <input type="number" name="num1" id="num1">
+    <label for="num2">Y:</label>
+    <input type="number" name="num2" id="num2">
+    <button type="submit" id="multi"><img src="" alt="Multiplicar"></button>
+</form>
+
+<h1>Dividir</h1>
+<form action="div" method="POST">
+    {% csrf_token %}
+
+    <label for="num1">X:</label>
+    <input type="number" name="num1" id="num1">
+    <label for="num2">Y:</label>
+    <input type="number" name="num2" id="num2">
+    <button type="submit" id="div"><img src="" alt="Dividir"></button>
+</form>
+
+{% endblock %}
