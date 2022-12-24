@@ -5,15 +5,3 @@
 
 ## Executando o projeto:
 `python manage.py runserver`
-
-## Grupo:
-
-- Dosons de Oliveria Vitor
-- Maria Clara Cortez
-- Maria Clara Leão
-- Maria Veronica
-- Julia Daniela
-- Matheus Ataide
-- José Marcos
-- Ruan Ranison
-- Ruan Felipe
